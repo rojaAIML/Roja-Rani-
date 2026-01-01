@@ -1,0 +1,19 @@
+# Python List example
+a = [1, 2, 3]
+b = [4, 5, 6]
+
+print("Python List Addition:")
+print(a + b)     # list join ஆகும்
+print(a * 2)     # list repeat ஆகும்
+
+print("------------------")
+
+# NumPy Array example
+import numpy as np
+
+x = np.array([1, 2, 3])
+y = np.array([4, 5, 6])
+
+print("NumPy Array Addition:")
+print(x + y)     # element-wise add
+print(x * 2)     # each value multiply
