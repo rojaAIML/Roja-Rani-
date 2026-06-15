@@ -1,0 +1,6 @@
+name=input("name:")
+dept=input("dept:")
+roll_number=int(input("roll_number"))
+print("name:",name)
+print("dept:",dept)
+print("roll_number:",roll_number)
