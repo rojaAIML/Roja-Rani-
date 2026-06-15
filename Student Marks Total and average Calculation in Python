@@ -1,0 +1,7 @@
+tamil=int(input("mark of Tamil:"))
+eng=int(input("mark of eng:"))
+maths=int(input("mark of maths:"))
+science=int(input("mark of science:"))
+social_science=int(input("mark of social_science:"))
+print(tamil+eng+maths+science+social_science)
+print((tamil+eng+maths+science+social_science)/5)
