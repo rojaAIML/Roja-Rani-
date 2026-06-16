@@ -1,0 +1,21 @@
+# Changing elements using index
+a = [1, 2, 3, 4]
+a[2] = 5
+print(a)
+
+a = ["apple", "orange", "mango"]
+a[1] = "strawberry"
+print(a)
+
+animals = ["lion", "tiger", "cat", "dog", "elephant"]
+animals[4] = "giraffe"
+print(animals)
+
+# Adding elements using .append()
+a = [1, 2, 3]
+a.append(4)
+print(a)
+
+fruits = ["apple", "orange", "banana"]
+fruits.append("strawberry")
+print(fruits)
