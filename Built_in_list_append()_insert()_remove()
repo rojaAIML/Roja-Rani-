@@ -1,0 +1,34 @@
+# append()
+a = [1, 2, 3]
+a.append(4)
+print(a)
+
+fruits = ["apple", "orange", "banana"]
+fruits.append("strawberry")
+print(fruits)
+
+# insert()
+a = [1, 2, 3]
+a.insert(0, 5)
+print(a)
+
+fruits = ["apple", "orange", "mango"]
+fruits.insert(1, "banana")
+print(fruits)
+
+students = ["arthi", "chira", "dharani", "evil", "faru"]
+students.insert(1, "bala")
+print(students)
+
+# remove()
+a = [1, 2, 3]
+a.remove(2)
+print(a)
+
+fruits = ["apple", "orange", "mango"]
+fruits.remove("orange")
+print(fruits)
+
+grp = ["a", "b", "c", "d"]
+grp.remove("c")
+print(grp)
