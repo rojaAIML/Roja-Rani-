@@ -1,0 +1,14 @@
+# Code snippet
+students = ["a", "b", "c", "d", "e", "f", "g"]
+marks = [80, 85, 70, 75, 90, 95, 98]
+
+print(students[:5])
+print(len(students))
+print(min(marks))
+print(max(marks))
+marks.sort()
+print(marks)
+marks.reverse()
+print(marks)
+total = sum(marks)
+print(total)
