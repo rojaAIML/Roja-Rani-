@@ -1,0 +1,25 @@
+# if-else find a large value
+a = int(input("enter a number:"))
+b = int(input("enter a number:"))
+if a > b:
+    print("A is greater than B")
+else:
+    print("B is greater than A")
+
+a = int(input("enter a number:"))
+b = int(input("enter a number:"))
+c = input("enter operator(+,-,*,/)")
+if c == "+":
+    print(a + b)
+elif c == "-":
+    print(a - b)
+elif c == "*":
+    print(a* b)
+elif c == "/":
+    print(a / b)
+
+a = int(input("enter a number:"))
+if a > 0:
+    print("a is positive")
+elif a 0: 
+    print("a is negative")
