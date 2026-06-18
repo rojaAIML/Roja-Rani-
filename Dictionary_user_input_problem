@@ -1,0 +1,14 @@
+name = input("enter your name:")
+age = int(input("enter your age:"))
+dept = input("enter your dept:")
+a = {"name": name, "age": age, "dept": dept}
+print(a)
+
+a = {"name": "roja", "age": 19, "roll_number": 35, "dept": "aiml", "gender": "female"}
+print(a["name"])
+print(a.keys())
+print(a.values())
+a["age"] = 20
+print(a)
+a["name"] = "rose"
+print(a)
