@@ -1,0 +1,31 @@
+# Voting system
+a = int(input("enter your age:"))
+if a >= 18:
+    print("you are an adult")
+    print("you can vote")
+    print("you have full legal rights")
+    print("finally you are eligible for vote")
+else:
+    print("sorry you are under 18")
+    print("so you are not eligible for vote")
+
+# Ram story
+ram = input("letter from ram:")
+if (ram == "alive"):
+    print("married")
+else:
+    print("sorry sita")
+
+# Rose story
+rose = input("rose past story:")
+if (rose == "titanic"):
+    print("yes")
+else:
+    print("no")
+
+# Vowel check
+a = input("enter an alphabet:")
+if (a in "a,e,i,o,u"):
+    print("vowel")
+else:
+    print("no")
