@@ -1,0 +1,26 @@
+# if_else
+a = 10
+if a > 5:
+    print("yes")
+else:
+    print("no")
+
+a = int(input())
+if a > 10:
+    print("yes")
+else:
+    print("no")
+
+a = 10
+b = 30
+if a < b:
+    print("B is greater")
+else:
+    print("A is greater")
+
+a = int(input("enter your number:"))
+b = int(input("enter your number:"))
+if a < b:
+    print("B is greater")
+else:
+    print("A is greater")
