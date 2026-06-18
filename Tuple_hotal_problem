@@ -1,0 +1,12 @@
+hotal = ("sambar", "curd", "biriyani", "egg_rice", "dosa")
+hotal2 = ("vada", "puri", "chapati")
+b = list(hotal)
+c = list(hotal2)
+b.extend(c)
+b.pop(1)
+print("biriyani" in b)
+b[3] = "coffe"
+print(b)
+print(len(b))
+e = tuple(b)
+print(e)
