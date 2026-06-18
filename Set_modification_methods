@@ -1,0 +1,31 @@
+# Pop, Add, Update, Remove, Discard, Clear, Length
+a = {2, 3, 4, 5, 10}
+a.pop() # Removes a random element
+print(a)
+
+a = {1, 2, 3, 4, 5}
+a.add(10)
+print(a)
+
+a = {1, 2, 3, 4, 5}
+a.update([6, 7]) # Adds multiple elements
+print(a)
+
+a = {1, 2, 3, 4, 5, 6, 7, 8}
+a.remove(5) # Removes 5; raises error if 5 not found
+print(a)
+
+a = {1, 2, 3, 4, 5, 6, 7, 8}
+a.discard(9) # Removes 9 if it exists; no error if it doesn't
+print(a)
+
+print(5 in a) # Membership test
+print(9 in a)
+
+a = {1, 2, 3, 4, 5}
+a.clear() # Removes all elements
+print(a)
+
+a = {1, 2, 3, 4, 5, 6}
+del a # Deletes the set object
+print(len(a)) # Note: This will raise NameError because 'a' is deleted
