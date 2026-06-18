@@ -1,0 +1,6 @@
+a = {1, 2, 3, 1, 2, 3, 4, 5, 6}
+print(a)
+print(type(a))
+
+fruits = {"apple", "mango", "orange"}
+print("mango" in fruits)
