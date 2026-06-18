@@ -1,0 +1,26 @@
+# Dictionary add, update, pop, len, merge, del
+
+a = {"name": "roja", "age": 19, "grade": "A"} 
+a["dept"] = "aiml"
+print(a)
+
+a = {"name": "roja", "age": 19, "grade": "A"} 
+a["grade"] = "B"
+print(a)
+
+a = {"name": "roja", "age": 19, "grade": "A"}
+a.pop("grade")
+print(a)
+
+a = {"name": "roja", "age": 19, "grade": "A"} 
+print(len(a))
+
+s1 = {"name": "roja", "age": 19}
+s2 = {"city": "chennai", "dept": "aiml"} 
+s1.update(s2)
+
+print(s1)
+
+s1 = {"name": "roja", "age": 19, "grade": "A"} 
+del s1["grade"] 
+print(s1)
