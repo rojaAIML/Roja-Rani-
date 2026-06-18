@@ -1,0 +1,43 @@
+# Grading system using if-elif-else
+mark=int(input("enter your mark:"))
+if (mark>=90 and mark<=100):
+    print("grade A")
+elif (mark>=80 and mark<=89):
+    print("grade B")
+elif (mark>=70 and mark<=79):
+    print("grade C")
+elif (mark>=60 and mark<=69):
+    print("grade D")
+else:
+    print("fail")
+
+# Day of the week problem
+a=int(input("enter number:"))
+if a==1:
+    print("sunday")
+elif a==2:
+    print("monday")
+elif a==3:
+    print("tuesday")
+elif a==4:
+    print("wednesday")
+elif a==5:
+    print("friday")
+elif a==6:
+    print("saturday")
+else:
+    print("no other days are exits")
+
+# Even or Odd check
+a=int(input("enter a number:"))
+if (a%2==0):
+    print("even")
+else:
+    print("odd")
+
+# Divisibility by 5 check
+a=int(input("enter a number:"))
+if (a%5==0):
+    print("divided by 5")
+else:
+    print("not divided by 5")
